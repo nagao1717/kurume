@@ -1,0 +1,23 @@
+.slide-container {
+    width: 950px;
+    margin: 0 auto;
+}
+.slide-item {
+    width: 280px;
+
+}
+.slide-img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+}
+.slide-ttl {
+    font-weight: bold;
+    font-size: 32px;
+    color:red;
+}
+.content-ttl {
+    text-align: center;
+    font-size: 40px;
+}

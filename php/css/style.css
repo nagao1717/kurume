@@ -1,0 +1,86 @@
+*{
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+li {
+    list-style-type: none;
+}
+.slide-container {
+    width: 950px;
+    margin: 0 auto;
+    height: 400px;
+}
+.slide-item-inner {
+    position: relative;
+    width: 280px;
+    height: 320px;
+    box-shadow: 5px 5px 13px -3px #7c9376;
+    margin-bottom: 30px;
+
+}
+.slide-text-area {
+    padding:0 20px;
+}
+.slide-img {
+    width: 280px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center center;
+}
+.slide-item .slide-ttl {
+    font-weight: bold;
+    font-size: 18px;
+    color:red;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.content-ttl {
+    text-align: center;
+    font-size: 40px;
+}
+
+.slide-text {
+    font-size: 15px;
+    color: #333;
+}
+.slick-dots {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .slick-dots li button {
+    position: relative;
+    text-indent: -9999px;
+  }
+  .slick-dots li button::before {
+    content: "";
+    display: block;
+    cursor: pointer;
+    height: 10px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 24px;
+    width: 10px;
+    border-radius: 50%;
+    border:2px solid #183013;
+  }
+  .slick-dots li.slick-active button::before {
+    background: #183013;
+  }
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 7px;
+  }
