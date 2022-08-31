@@ -6,13 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preload" href="css/index.css" as="style">
-    <link rel="preload" href="index.js" as="script">
+    <link rel="preload" href="js/index.js" as="script">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="ly-container">
-
+        <div class="box">
+            <!-- <ul>
+                <li><a href="1"></a></li>
+                <li><a href="2"></a></li>
+                <li><a href="4"></a></li>
+                <li><a href="3"></a></li>
+            </ul> -->
+            <!-- ----------------------------------------------------------------------- -->
+            <!-- <form>
+                <label for="time">時刻</label>
+                <input type="text" id="time" name="time" size="10">
+            </form> -->
+            <!-- ----------------------------------------------------------------------- -->
+            <ul id="list">
+                <li><a href="javascript:void(0)" data-isbn="123">php</a></li>
+                <li><a href="javascript:void(0)" data-isbn="1234">java</a></li>
+                <li><a href="javascript:void(0)" data-isbn="1235">swift</a></li>
+                <li><a href="javascript:void(0)" data-isbn="1236">asp.net</a></li>
+            </ul>
+            <input type="button" id="del" value="削除" disabled />
+            <div id="pic">
+                
+            </div>
+        </div>
+        <div id="main" class="box">
+            <form action="" id="fm">
+                <input type="submit" value="送信" />
+            </form>
+        </div>
     </div>
-    <script type="javascript/text" src="js/index.js"></script>
+    <form action="">
+        <input type="button" id="btn" value="ダイアログひょうじ" />
+    </form>
+    <div class="media">
+        <div class="img-wrap" id="img_wrap">
+            <img class="img" src="img/お花見磯部@2x.jpg" width="500" height="300" alt="さんぷる" />
+            <img class="img" src="img/kurume-img1.png" alt="">
+            <img class="img" src="img/お花見磯部@2x.jpg" width="500" height="300" alt="さんぷる" />
+            <img class="img" src="img/kurume-img1.png" alt="">
+        </div>
+        <div class="media-text">
+            <h2>サンプル</h2>
+            <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
